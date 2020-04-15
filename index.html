@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web components</title>
+    <style>
+        h3{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <video controls width="250">
+
+        <source src="/media/examples/flower.webm"
+                type="video/webm">
+    
+        <source src="/media/examples/flower.mp4"
+                type="video/mp4">
+    
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+    <profile-card avatar="https://randomuser.me/api/portraits/women/1.jpg" name="Chennai web group">
+        <div slot="email">chennaiwebgroup@gmail.com</div>
+        <div slot="phone">999-999-999</div>
+    </profile-card>
+    <profile-card avatar="https://randomuser.me/api/portraits/men/1.jpg" name="Chennai web group">
+        <div slot="email">chennaiwebgroup@gmail.com</div>
+        <div slot="phone">444-444-444</div>
+    </profile-card>
+<script src="./profileCard.js"></script>
+</body>
+</html>
